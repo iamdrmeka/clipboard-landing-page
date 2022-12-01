@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  transition: ease 0.6s;
+  transition: ease 0.5s;
   font-family: sans-serif;
   // outline: 1px solid red;
 }
@@ -21,3 +21,22 @@ $Light-Blue: hsl(233, 100%, 69%);
 $grayish-blue: hsl(201, 11%, 66%);
 $Dark-Grayish-Blue: hsl(210, 10%, 33%);
 $bg-color: hsla(202, 11%, 66%, 0.142);
+
+::-webkit-scrollbar{
+  width: 8px;
+}
+::-webkit-scrollbar-track{
+  background-color: $grayish-blue;
+}
+
+::-webkit-scrollbar-thumb{
+  border-radius: 4px;
+  background-color: $Dark-Grayish-Blue;
+}
+ 
+::-webkit-scrollbar-thumb:hover{
+  border-radius: 4px;
+ 
+  background-color: $Light-Blue;
+}
+  

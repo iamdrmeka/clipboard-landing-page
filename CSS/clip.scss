@@ -43,7 +43,10 @@ header {
       border-radius: 50px;
       text-decoration: none;
       color: white;
-      box-shadow: 0 3px $Dark-Grayish-Blue;
+      box-shadow: 0 3px 7px -2px $Dark-Grayish-Blue;
+      &:hover {
+        box-shadow:  0px 3px $Dark-Grayish-Blue;
+      }
     }
 
     a.left {
@@ -191,7 +194,10 @@ header {
       border-radius: 50px;
       text-decoration: none;
       color: white;
-      box-shadow: 0 3px $Dark-Grayish-Blue;
+      box-shadow: 0 3px 7px -2px $Dark-Grayish-Blue;
+      &:hover {
+        box-shadow:  0px 3px $Dark-Grayish-Blue;
+      }
     }
 
     a.left {

@@ -157,7 +157,7 @@ header div.buttons .right {
 .section-seven {
   display: flex;
   justify-content: center;
-  gap: 6rem;
+  gap: 6%;
   align-items: center;
   padding: 3rem 1rem;
 }
@@ -315,6 +315,7 @@ img {
   }
   .section-seven {
     flex-direction: column;
+    gap: 6rem;
   }
   .section-seven img {
     width: 150px;

@@ -1,0 +1,23 @@
+//reset
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: ease 0.6s;
+  font-family: sans-serif;
+  // outline: 1px solid red;
+}
+
+//variables
+
+
+// ### Primary
+
+$Strong-Cyan: hsl(171, 66%, 44%);
+$Light-Blue: hsl(233, 100%, 69%);
+
+// ### Neutral
+
+$grayish-blue: hsl(201, 11%, 66%);
+$Dark-Grayish-Blue: hsl(210, 10%, 33%);
+$bg-color: hsla(202, 11%, 66%, 0.142);

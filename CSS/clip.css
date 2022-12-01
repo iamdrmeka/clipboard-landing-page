@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: ease 0.6s;
+  font-family: sans-serif;
+}
+
+header {
+  background-image: url("/images/bg-header-desktop.png");
+  background-position: center;
+  background-size: cover;
+  padding: 6rem 2rem 2rem;
+}
+header img {
+  width: 120px;
+  display: block;
+  margin: auto;
+}
+header h1 {
+  text-align: center;
+  font-size: 2.7rem;
+  margin-top: 3.5rem;
+  color: hsl(210deg, 10%, 33%);
+}
+header p {
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 1.5rem 24% 3.5rem;
+  line-height: 1.7rem;
+  color: hsl(201deg, 11%, 66%);
+}
+header div.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+header div.buttons a {
+  width: 220px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  text-decoration: none;
+  color: white;
+  box-shadow: 0 3px hsl(210deg, 10%, 33%);
+}
+header div.buttons a.left {
+  background-color: hsl(171deg, 66%, 44%);
+}
+header div.buttons .right {
+  background-color: hsl(233deg, 100%, 69%);
+}
+
+.copy {
+  margin: 8rem 2rem;
+}
+.copy h1 {
+  text-align: center;
+  font-size: 2.1rem;
+  margin: 1rem;
+  color: hsl(210deg, 10%, 33%);
+}
+.copy p {
+  text-align: center;
+  margin: 0 22% 3rem;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  color: hsl(201deg, 11%, 66%);
+}
+
+.section-two {
+  display: flex;
+  align-items: center;
+}
+.section-two .img {
+  width: 55%;
+}
+.section-two .img img {
+  width: 100%;
+  margin-left: -35px;
+}
+.section-two .txt {
+  width: 50%;
+  padding: 1rem 6rem 1rem 5rem;
+}
+.section-two .txt .txt-txt h2 {
+  color: hsl(210deg, 10%, 33%);
+  margin: 0 0 1rem 0;
+}
+.section-two .txt .txt-txt p {
+  line-height: 1.7rem;
+  margin: 0 28% 3rem 0;
+  font-size: 1rem;
+  color: hsl(201deg, 11%, 66%);
+}
+
+.section-four {
+  display: flex;
+  justify-content: center;
+}
+.section-four img {
+  width: 65%;
+}
+
+.section-six {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 2em 7rem;
+  margin: 0 0 8rem 0;
+}
+.section-six .six-child {
+  flex: 1;
+}
+.section-six img {
+  display: block;
+  width: auto;
+  margin: auto;
+  height: 30px;
+}
+.section-six h3 {
+  text-align: center;
+  color: hsl(210deg, 10%, 33%);
+  margin: 2rem 0;
+}
+.section-six p {
+  color: hsl(201deg, 11%, 66%);
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.section-seven {
+  display: flex;
+  justify-content: center;
+  gap: 6rem;
+  align-items: center;
+  padding: 3rem 1rem;
+}
+.section-seven img {
+  width: 130px;
+}
+
+.section-eight {
+  margin: 5rem 0 10rem 0;
+}
+.section-eight h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 3.5rem;
+  color: hsl(210deg, 10%, 33%);
+}
+.section-eight p {
+  text-align: center;
+  font-size: 1.1rem;
+  margin: 1rem 24% 3.5rem;
+  line-height: 1.7rem;
+  color: hsl(201deg, 11%, 66%);
+}
+.section-eight div.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.section-eight div.buttons a {
+  width: 220px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  text-decoration: none;
+  color: white;
+  box-shadow: 0 3px hsl(210deg, 10%, 33%);
+}
+.section-eight div.buttons a.left {
+  background-color: hsl(171deg, 66%, 44%);
+}
+.section-eight div.buttons .right {
+  background-color: hsl(233deg, 100%, 69%);
+}
+
+footer {
+  display: flex;
+  background-color: hsla(202deg, 11%, 66%, 0.142);
+  justify-content: space-between;
+  padding: 2.5rem 9rem 2rem;
+}
+
+img {
+  width: 50px;
+}
+
+.links {
+  display: block;
+  margin-bottom: 1.5rem;
+  text-decoration: none;
+  color: hsl(210deg, 10%, 33%);
+}
+.links:hover {
+  color: hsl(171deg, 66%, 44%);
+}
+
+.socials {
+  margin-left: 14rem;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 1.6rem;
+}
+.socials .social {
+  text-decoration: none;
+  color: hsl(210deg, 10%, 33%);
+  font-size: 1.5rem;
+  margin-left: 0.7rem;
+  width: 40px;
+  height: 40px;
+}
+.socials .social:hover {
+  color: hsl(171deg, 66%, 44%);
+}/*# sourceMappingURL=clip.css.map */

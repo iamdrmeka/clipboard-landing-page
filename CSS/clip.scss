@@ -1,0 +1,253 @@
+@import "clip-config";
+
+header {
+  background-image: url("/images/bg-header-desktop.png");
+  background-position: center;
+  background-size: cover;
+  padding: 6rem 2rem 2rem;
+
+  img {
+    width: 120px;
+    display: block;
+    margin: auto;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 2.7rem;
+    margin-top: 3.5rem;
+    color: $Dark-Grayish-Blue;
+  }
+
+  p {
+    text-align: center;
+    // margin-top: 1.5rem;
+    font-size: 1.2rem;
+    margin: 1.5rem 24% 3.5rem;
+    line-height: 1.7rem;
+    color: $grayish-blue;
+  }
+
+  div.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    a {
+      width: 220px;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50px;
+      text-decoration: none;
+      color: white;
+      box-shadow: 0 3px $Dark-Grayish-Blue;
+    }
+
+    a.left {
+      background-color: $Strong-Cyan;
+    }
+
+    .right {
+      background-color: $Light-Blue;
+    }
+  }
+}
+
+.copy {
+  margin: 8rem 2rem;
+  h1 {
+    text-align: center;
+    font-size: 2.1rem;
+    margin: 1rem;
+    color: $Dark-Grayish-Blue;
+  }
+
+  p {
+    text-align: center;
+    margin: 0 22% 3rem;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    color: $grayish-blue;
+  }
+}
+
+.section-two {
+  display: flex;
+  align-items: center;
+
+  .img {
+    width: 55%;
+    img {
+      width: 100%;
+      margin-left: -35px;
+    }
+  }
+
+  .txt {
+    width: 50%;
+    padding: 1rem 6rem 1rem 5rem;
+
+    .txt-txt {
+      h2 {
+        color: $Dark-Grayish-Blue;
+        margin: 0 0 1rem 0;
+      }
+      p {
+        line-height: 1.7rem;
+        margin: 0 28% 3rem 0;
+        font-size: 1rem;
+        color: $grayish-blue;
+      }
+    }
+  }
+}
+
+.section-four {
+  display: flex;
+  justify-content: center;
+
+  img {
+    width: 65%;
+  }
+}
+
+//section five was styled with the copy class
+
+.section-six {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 2em 7rem;
+
+  margin: 0 0 8rem 0;
+
+  .six-child {
+    flex: 1;
+  }
+  img {
+    display: block;
+    width: auto;
+    margin: auto;
+    height: 30px;
+  }
+  h3 {
+    text-align: center;
+    color: $Dark-Grayish-Blue;
+    margin: 2rem 0;
+  }
+  p {
+    color: $grayish-blue;
+    text-align: center;
+    font-size: 1rem;
+    // padding: 0 3rem;
+    line-height: 1.5rem;
+  }
+}
+
+.section-seven {
+  display: flex;
+  justify-content: center;
+  gap: 6rem;
+  align-items: center;
+  padding: 3rem 1rem;
+  img {
+    width: 130px;
+    // height: 50px;
+  }
+}
+
+.section-eight {
+  margin: 5rem 0 10rem 0;
+  h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 3.5rem;
+    color: $Dark-Grayish-Blue;
+  }
+  p {
+    text-align: center;
+    // margin-top: 1.5rem;
+    font-size: 1.1rem;
+    margin: 1rem 24% 3.5rem;
+    line-height: 1.7rem;
+    color: $grayish-blue;
+  }
+
+  div.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    a {
+      width: 220px;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50px;
+      text-decoration: none;
+      color: white;
+      box-shadow: 0 3px $Dark-Grayish-Blue;
+    }
+
+    a.left {
+      background-color: $Strong-Cyan;
+    }
+
+    .right {
+      background-color: $Light-Blue;
+    }
+  }
+}
+
+footer {
+    display: flex;
+    background-color: $bg-color;
+justify-content: space-between;
+padding: 2.5rem 9rem 2rem;
+//    align-items: center;
+
+} 
+
+
+img{
+    width: 50px;
+}
+
+.links{
+    display: block;
+    margin-bottom: 1.5rem;
+    text-decoration: none;
+    color: $Dark-Grayish-Blue;
+    &:hover{
+        color: $Strong-Cyan;
+    }
+
+}
+
+.socials {
+    margin-left: 14rem;
+    display: flex;
+    align-items: flex-start;
+    padding-top: 1.6rem;
+
+
+    .social{
+      text-decoration: none;
+      color: $Dark-Grayish-Blue;
+      font-size: 1.5rem;
+      margin-left: 0.7rem;
+      // border: 1px solid $Dark-Grayish-Blue;
+      width: 40px;
+      height: 40px;
+      &:hover {
+        color: $Strong-Cyan;
+      }
+      
+
+    }
+}
